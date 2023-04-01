@@ -1,3 +1,4 @@
+#include "library.h"
 
 int mystrlen(string str)
 {
