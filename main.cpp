@@ -155,12 +155,10 @@ int main()
 
         if (file1->isEmpty())
         {
-            cout << "outing" << endl;;
             file1->Write(in_text);
         }
         else
         {
-            cout << "appending" << endl;
             file1->Write(in_text, true);
         }
     }
